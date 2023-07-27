@@ -1,0 +1,102 @@
+{
+    "users": [
+      {
+        "username": "admin",
+        "password": "admin",
+        "team":"admin",
+        "is_admin": true
+      },
+      {
+        "name": "hrithik",
+        "username": "hrithik",
+        "email": "hrithik@gmail.com",
+        "password": "hrithik",
+        "team": "react",
+        "user_id": 1
+      },
+      {
+        "name": "arjun",
+        "username": "arjun",
+        "email": "hrithik@gmail.com",
+        "password": "hrithik",
+        "team": "react",
+        "user_id": 2
+      },
+      {
+        "name": "febin",
+        "username": "hrithik",
+        "email": "hrithik@gmail.com",
+        "password": "hrithik",
+        "team": "ui",
+        "user_id": 3
+      },
+      {
+        "name": "angel",
+        "username": "hrithik",
+        "email": "hrithik@gmail.com",
+        "password": "hrithik",
+        "team": "node",
+        "user_id": 4
+      }
+    ],
+    "team":[
+      "react","node","ui"
+    ],
+    "projects": [
+      {
+        "project_id": 1,
+        "project_name": "Lulu",
+        "project_description": "pro1",
+        "technology": ["react", "node", "ui"],
+        "instruction": "inst1"
+      }
+    ],
+    "time": [
+      {
+        "project_id": 1,
+        "total_time_quoted": 2000,
+        "react_time": 500,
+        "node_time": 500,
+        "ui_time": 1000
+      }
+    ],
+    "project_team": [
+      {
+        "project_id": 1,
+        "react": ["hrithik"],
+        "node": [],
+        "ui": []
+      }
+    ],
+    "tasks": [
+      {
+        "project_id": 1,
+        "task_id": 1,
+        "task_name": "header",
+        "task_description": "header should be good",
+        "priority": "high"
+      },
+      {
+        "project_id": 1,
+        "task_id": 2,
+        "task_name": "header1",
+        "task_description": "header should be good",
+        "priority": "medium"
+      },
+      {
+        "project_id": 1,
+        "task_id": 3,
+        "task_name": "header2",
+        "task_description": "header should be good",
+        "priority": "low"
+      }
+    ],
+    "chats": [
+      {
+        "sender_id": 1,
+        "sender_name": "hrithik",
+        "message": "blahubjambj",
+        "message_id": 1
+      }
+    ]
+  }
